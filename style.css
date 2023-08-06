@@ -1,0 +1,105 @@
+.leftbox{
+    width: 250px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    display: inline-block;
+    /* border: 2px solid red; */
+
+}
+.leftbox img{
+    width: 80px;
+}
+.leftbox div{
+    font-size: 25px;
+    position: absolute;
+    left: 80px;;
+    top: 15px;
+    text-align:center;
+}
+.midbox{
+    display: block;
+    width: 31%;
+    margin: 15px auto;
+    
+    /* border: 2px solid green; */
+
+}
+.rightbox{
+    position: absolute;
+    width: 15%;
+    right: 10px;
+    top: 15px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar a{
+    color: azure;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+color: rgb(255, 230, 0);
+    
+}
+.button{
+    display: inline-block;
+padding: 5px 8px;
+right: 2%;
+margin: 5px 5px 5px 5px;
+/* border: 2px;*/
+border-radius: 10px; 
+    font-size: 20px;
+    /* top: 15px; */
+    /* right: 20px; */
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.button:hover{
+background-color: rgb(246, 130, 130);
+
+}
+.container{
+    border: 2px solid rgb(246, 247, 246);
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 25px;
+}
+.container button{
+    display: inline-block;
+    padding: 5px 8px;
+    right: 2%;
+    margin: 5px 5px 5px 5px;
+    /* border: 2px;*/
+    border-radius: 10px; 
+        font-size: 20px;
+        /* top: 15px; */
+        /* right: 20px; */
+        background-color: grey;
+        cursor: pointer;
+}
+.sbutton:hover{
+    background-color: burlywood;
+}
+.form input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px ;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 25px;
+    border-radius: 8px;
+
+}
